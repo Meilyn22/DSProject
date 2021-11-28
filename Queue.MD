@@ -2,13 +2,13 @@
 
 Queues are fundamental to data structures in programming. A queue is a close “cousin” of the stack; it’s a collection of objects inserted and removed according to the FIFO (First-in, first-out) principle. Meaning that the entity put in the queue first leaves the line (queue) first, and the entity that enters the queue last gets removed at the end.
 
-![FIFO Queue illustration. ](pictures\queue4.jpg)
+![FIFO Queue illustration. ](pictures/queue4.jpg)
 
 The idea is that elements enter a queue through the back and are taken away from the front. An analogy for this is a line of individuals queuing to get on a carnival ride. Individuals waiting for such a ride enter at the rear of the line and get on the ride from the front of the line. To remember this concept, you can also use the acronym “FCFS,” which means first-come, first-served.
 
 Another great example would be a car wash where cars queue up to get a wash. The vehicles stay in a line waiting for their turn. The first car to show up gets to wash first, while the last car remains until all other vehicles that came before it is gone. Now we can wash the last vehicle and close for the day when we have no vehicles left.
 
-![Cars entering and leaving a car wash.](pictures\queue1.jpg)
+![Cars entering and leaving a car wash.](pictures/queue1.jpg)
 (*Source*: Alamy.com)
 
 Let’s have a look at one more example.
