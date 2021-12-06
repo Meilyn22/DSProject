@@ -16,13 +16,12 @@
 
 ### 2. Sets
 * Introduction to sets.
-* Uses of sets.
-* Set theory briefly.
 * Creating a Set in Python.
 * Common operations of a set in Python.
+* Conflict resolution
 * Solving common problems with python sets.
-* Performance of Queues
-* Practice Queues
+* Performance of Sets
+* Practice Sets
 * Exercises
 * Solution
 
