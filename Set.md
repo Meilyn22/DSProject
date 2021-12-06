@@ -30,9 +30,10 @@ A set can contain any number of elements regardless of type (integer, float, tup
 Another way to create a set is using the `set()` function or constructor. For example, we could Create a set from a list, tuple or string using the `set()` constructor to implement this. The data structure will be converted to a set, removing duplicate elements.
 
 ![converting a list to a set](pictures/sets1.png)
+
 (*Source*: Freecodecamp.org)
 
-Examples of using a set() constructor.
+Examples of using a `set()` constructor.
 
 ```python
 # defining a set
