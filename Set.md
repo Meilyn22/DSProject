@@ -5,7 +5,7 @@ A set is a collection of unordered elements that are unique. In Python, sets are
 
 ## Creating a set
 
-The syntax of a set is similar to other data structures like lists and dictionaries with minor differences. To create a set, we begin by writing a pair of curly brackets `{}`; inside the brackets, we separate the elements of the set by commas and a space(optional) just like we would do in a list.
+The syntax of a set is similar to other data structures like lists and dictionaries with minor differences. To create a set, we begin by writing a pair of curly brackets `{}`; inside the brackets, we separate the elements of the set by commas and a space(optional) just like we would do in a list or by using the built-in set() function.
 
 ![Syntax of a set](pictures/sets.png)
 
@@ -13,21 +13,36 @@ The syntax of a set is similar to other data structures like lists and dictionar
 
 (*Source*: Freecodecamp.org)
 
+A set can contain any number of elements regardless of type(integer, float, tuple, string etc). However, a set cannot have mutable elements like lists, sets or dictionaries as its elements.
+
+```python
+# set of integers
+my_set = {1, 2, 3}
+print(my_set)
+
+# set of mixed datatypes
+my_set = {1.0, "Hello", (1, 2, 3)}
+print(my_set)
+```
+
 ### Using the `set()` Constructor
 Another way to create a set is using the `set()` function or constructor. For example, we could Create a set from a list, tuple or string using the `set()` constructor to implement this. The data structure will be converted to a set, removing duplicate elements.
 
 ![converting a list to a set](pictures/sets1.png)
+(*Source*: Freecodecamp.org)
+
+Examples of using a set() constructor.
 
 ```python
-# Set
+# defining a set
 >>> {1, 2, 3, 4}
 {1, 2, 3, 4}
 
-# From a list
+# Converting a list to a set
 >>> set([1, 2, 3, 4])
 {1, 2, 3, 4}
 
-# From a tuple
+# Converting a tuple to a set
 >>> set((1, 2, 3, 4))
 {1, 2, 3, 4}
 ```
