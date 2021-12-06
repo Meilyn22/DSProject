@@ -62,5 +62,5 @@ example:
 >>> set(items)
 {1, 2, 3, 4}
 ```
-## Common operations of sets in Python.
+## Methods of set
 

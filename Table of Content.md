@@ -17,7 +17,8 @@
 ### 2. Sets
 * Introduction to sets in Python.
 * Creating a Set in Python.
-* Common operations of a set in Python.
+* Methods of set
+* Set operations
 * Conflict resolution
 * Solving common problems with python sets.
 * Performance of Sets
