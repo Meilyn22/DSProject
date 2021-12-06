@@ -13,16 +13,17 @@ The syntax of a set is similar to other data structures like lists and dictionar
 
 (*Source*: Freecodecamp.org)
 
-A set can contain any number of elements regardless of type(integer, float, tuple, string etc). However, a set cannot have mutable elements like lists, sets or dictionaries as its elements.
+A set can contain any number of elements regardless of type (integer, float, tuple, string etc). However, a set cannot have mutable elements like lists, sets or dictionaries as its elements.
 
 ```python
 # set of integers
-my_set = {1, 2, 3}
-print(my_set)
+>>> my_set = {1, 2, 3}
+>>> print(my_set)
 
 # set of mixed datatypes
-my_set = {1.0, "Hello", (1, 2, 3)}
-print(my_set)
+>>> my_set = {1.0, "Hello", (1, 2, 3)}
+>>> print(my_set)
+
 ```
 
 ### Using the `set()` Constructor
@@ -38,6 +39,11 @@ Examples of using a set() constructor.
 >>> {1, 2, 3, 4}
 {1, 2, 3, 4}
 
+# Converting a string to a set
+>>> print set('abcd')
+# prints
+set(['a', 'c', 'b', 'd'])
+
 # Converting a list to a set
 >>> set([1, 2, 3, 4])
 {1, 2, 3, 4}
@@ -46,3 +52,18 @@ Examples of using a set() constructor.
 >>> set((1, 2, 3, 4))
 {1, 2, 3, 4}
 ```
+
+>>> a = [1, 2, 2, 2, 2, 3, 4, 1, 4]
+>>> set(a)
+{1, 2, 3, 4}
+## `Note:` If the elements in the `set()` has duplicate values, they will be removed to create the set.
+
+example:
+
+```python
+>>> items = [1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 1, 4]
+>>> set(items)
+{1, 2, 3, 4}
+```
+## Common operations of sets in Python.
+
