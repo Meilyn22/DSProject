@@ -15,7 +15,7 @@
 * Solution
 
 ### 2. Sets
-* Introduction to sets.
+* Introduction to sets in Python.
 * Creating a Set in Python.
 * Common operations of a set in Python.
 * Conflict resolution
