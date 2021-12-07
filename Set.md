@@ -53,7 +53,7 @@ set(['a', 'c', 'b', 'd'])
 >>> set((1, 2, 3, 4))
 {1, 2, 3, 4}
 ```
-### `Note:` If the elements in the `set()` has duplicate values, they will be removed to create the set.
+### `Note:` If the element in the `set()` has duplicate values, they will be removed to create the set.
 
 example:
 
@@ -64,3 +64,14 @@ example:
 ```
 ## Methods of set
 
+### Modifying a set in Python
+We said elements in a set are immutable earlier, but we need to understand that a set itself is mutable. However, since the elements are unordered, indexing cannot be done.  
+
+The reason why we said the elements are immutable is because we cannot access or change them using slicing or indexing (common with a list). Sets include helpful built-in methods to help us perform common and essential functionality such as adding elements, deleting elements, and clearing the set.
+
+Before we go into these built-in methods we can quickly talk about Membership Testing.
+
+### Membership Testing
+We can check if an element exists in the set by using the `in` operator.
+
+![in operator illustration of a set](pictures/sets.png)
