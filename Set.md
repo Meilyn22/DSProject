@@ -103,19 +103,16 @@ False
 
 #defining another set
 a = {'apple', 'orange', 'banana', 'melon', 'mango'}
-print(a)
 print('banana' in a)
-print('papaya' in a)
-# prints
 True
+print('papaya' in a)
 False
 
 #defining another set
 b = set(['melon', 'orange', 'mango', 'banana', 'papaya'])
-print(b)
 print('banana' in b)
-print('papaya' in b)
 True
+print('papaya' in b)
 True
 ```
 ## Methods of set
