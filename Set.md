@@ -53,7 +53,10 @@ set(['a', 'c', 'b', 'd'])
 >>> set((1, 2, 3, 4))
 {1, 2, 3, 4}
 ```
-### `Note:` If the element in the `set()` has duplicate values, they will be removed to create the set.
+
+--------------------------------------------------
+:memo: If the element in the `set()` has duplicate values, they will be removed to create the set.
+--------------------------------------------------
 
 example:
 
