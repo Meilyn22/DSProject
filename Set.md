@@ -68,6 +68,7 @@ example:
 We said elements in a set are immutable earlier, but we need to understand that a set itself is mutable. However, since the elements are unordered, indexing cannot be done.  
 
 The reason why we said the elements are immutable is because we cannot access or change them using slicing or indexing (common with a list). Sets include helpful built-in methods to help us perform common and essential functionality such as adding elements, deleting elements, and clearing the set.
+
 --------------------------------------------------------
 :memo: According to the Python Documentation:          
                                                       
