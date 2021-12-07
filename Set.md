@@ -13,7 +13,7 @@ The syntax of a set is similar to other data structures like lists and dictionar
 
 (*Source*: Freecodecamp.org)
 
-A set can contain any number of elements regardless of type (integer, float, tuple, string etc). However, a set cannot have mutable elements like lists, sets or dictionaries as its elements.
+A set can contain any number of elements regardless of type (integer, float, tuple, string etc). However, a set cannot have mutable elements like lists, sets or dictionaries as its elements (A frozen set can resolve this problem).
 
 ```python
 # set of integers
@@ -68,6 +68,10 @@ example:
 We said elements in a set are immutable earlier, but we need to understand that a set itself is mutable. However, since the elements are unordered, indexing cannot be done.  
 
 The reason why we said the elements are immutable is because we cannot access or change them using slicing or indexing (common with a list). Sets include helpful built-in methods to help us perform common and essential functionality such as adding elements, deleting elements, and clearing the set.
+
+According to the Python Documentation:
+
+*The set type is mutable — the contents can be changed using methods like add() and remove(). Since it is mutable, it has no hash value and cannot be used as either a dictionary key or as an element of another set.*
 
 Before we go into these built-in methods we can quickly talk about Membership Testing.
 
