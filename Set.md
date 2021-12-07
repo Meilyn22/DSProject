@@ -73,7 +73,7 @@ We said elements in a set are immutable earlier, but we need to understand that 
 The reason why we said the elements are immutable is because we cannot access or change them using slicing or indexing (common with a list). Sets include helpful built-in methods to help us perform common and essential functionality such as adding elements, deleting elements, and clearing the set.
 
 --------------------------------------------------------
-:exclamation: According to the Python Documentation:          
+:memo: According to the Python Documentation:          
                                                       
 The set type is mutable — the contents can be changed  
 using methods like add() and remove(). Since it is     
