@@ -71,7 +71,7 @@ The reason why we said the elements are immutable is because we cannot access or
 
 ```According to the Python Documentation:
 
-*The set type is mutable — the contents can be changed using methods like add() and remove(). Since it is mutable, it has no hash value and cannot be used as either a dictionary key or as an element of another set.*```
+The set type is mutable — the contents can be changed using methods like add() and remove(). Since it is mutable, it has no hash value and cannot be used as either a dictionary key or as an element of another set.```
 
 Before we go into these built-in methods we can quickly talk about Membership Testing.
 
