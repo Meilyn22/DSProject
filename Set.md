@@ -88,9 +88,8 @@ We can check if an element exists in the set by using the `in` operator.
 
 ![in operator illustration of a set](pictures/sets.png)
 
-``` python
 This in an example:
-
+``` python
 a = "hhheeelllooo"
 b = set(a)
 print(b)
