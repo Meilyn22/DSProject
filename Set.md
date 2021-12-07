@@ -37,20 +37,20 @@ Examples of using a `set()` constructor.
 
 ```python
 # defining a set
->>> {1, 2, 3, 4}
 {1, 2, 3, 4}
-
 # Converting a string to a set
->>> print set('abcd')
+print(set('abcd'))
 # prints
 set(['a', 'c', 'b', 'd'])
 
 # Converting a list to a set
->>> set([1, 2, 3, 4])
+print(set([1, 2, 3, 4]))
+# prints
 {1, 2, 3, 4}
 
 # Converting a tuple to a set
->>> set((1, 2, 3, 4))
+print(set((1, 2, 3, 4)))
+# prints
 {1, 2, 3, 4}
 ```
 
@@ -61,11 +61,11 @@ set(['a', 'c', 'b', 'd'])
 example:
 
 ```python
->>> items = [1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 1, 4]
->>> set(items)
+items = [1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 1, 4]
+print(set(items))
+# prints
 {1, 2, 3, 4}
 ```
-## Methods of set
 
 ### Modifying a set in Python
 We said elements in a set are immutable earlier, but we need to understand that a set itself is mutable. However, since the elements are unordered, indexing cannot be done.  
@@ -87,3 +87,36 @@ Before we go into these built-in methods we can quickly talk about Membership Te
 We can check if an element exists in the set by using the `in` operator.
 
 ![in operator illustration of a set](pictures/sets.png)
+
+``` python
+This in an example:
+
+a = "hhheeelllooo"
+b = set(a)
+print(b)
+{'e', 'l', 'o', 'h'}
+
+# Test if the characters 'e' and 'a' are in set b
+'e' in b
+True
+'a' in b
+False
+
+#defining another set
+a = {'apple', 'orange', 'banana', 'melon', 'mango'}
+print(a)
+print('banana' in a)
+print('papaya' in a)
+# prints
+True
+False
+
+#defining another set
+b = set(['melon', 'orange', 'mango', 'banana', 'papaya'])
+print(b)
+print('banana' in b)
+print('papaya' in b)
+True
+True
+```
+## Methods of set
