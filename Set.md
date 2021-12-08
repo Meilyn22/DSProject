@@ -139,6 +139,50 @@ print(e)
 {1, 2, 3, 4, 5}
 ```
 
+example 2:
+
+``` python
+a = [random.randint(0, 10) for x in range(10)]
+print ('list =>', a)
+m = set(a)
+print ('set =>', m)
+m.add(10)
+print ('after add =>',  m)
+# prints
+list => [3, 4, 7, 2, 8, 0, 4, 1, 0, 4]
+set => {0, 1, 2, 3, 4, 7, 8}
+after add => {0, 1, 2, 3, 4, 7, 8, 10}
+```
+
+We will need to use a loop to add multiple elements since the `add()` method accepts only a single argument.
+
+We cannot add a list to a set since the list cannot be hashed.
+
+``` python
+m.add(5)
+print ('after add =>', m)
+m.add([21, 22])
+print (m)
+# prints
+TypeErrorTraceback (most recent call last)
+ in ()
+      5 m.add(10)
+      6 print ('after add =>', m)
+----> 7 m.add([21, 22])
+      8 print (m)
+
+TypeError: unhashable type: 'list
+```
+
+However, we can add a tuple since it is not mutable and hence hashable.
+
+``` python
+m.add((19, 20))
+print (m)
+# prints
+{0, 3, 4, 5, 6, 7, (19, 20), 9, 10]}
+```
+
 ### Delete from a Set
 
 We can make use of 3 ways to delete element from a set.
@@ -151,6 +195,7 @@ We can make use of 3 ways to delete element from a set.
 The first two methods (.remove() and .discard()) work exactly the same when the element is in the set. The new set is returned:
 
 ``` python
+#Remove a single element from a set using remove().
 a = {1, 2, 3, 4}
 a.remove(3)
 print(a)
@@ -165,17 +210,20 @@ print(a)
 The key difference between these two methods is that if we use the `.remove()` method, we run the risk of trying to remove an element that doesn't exist in the set and this will raise a `KeyError`:
 
 ``` python
+# A KeyError is raised if the element is not in the set. (Running the same code as above a couple of times generates a random sequence without 10 in the set.)
+
 a = {1, 2, 3, 4}
 a.remove(5)
 Traceback (most recent call last):
-  File "<pyshell#102>", line 1, in <module>
+  File "<pyshell#102>", line 188, in <module>
     a.remove(5)
 KeyError: 5
 ```
-
 We will never have that problem with `.discard()` since it doesn't raise an exception if the element is not found. This method will simply leave the set intact, as you can see in this example:
 
 ``` python
+# Need to remove an element from a set without the pesky KeyError? Use discard().
+
 a = {1, 2, 3, 4}
 a.discard(5)
 print(a)
