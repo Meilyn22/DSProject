@@ -117,6 +117,18 @@ True
 ```
 ## Methods of set
 
+### Set Size
+We can obtain the size of a set (the number of elements) using the built in len() function. in poython.
+
+``` python
+a = {'apple', 'orange', 'banana', 'melon', 'mango'}
+print (a)
+print ('size of a:', len(a))
+# prints
+{'melon', 'orange', 'mango', 'banana', 'apple'}
+size of a: 5
+```
+
 ### Add to a Set
 To add items to a set, we utilize the built in `.add()` method. We pass the element we want to add as an argument.
 
