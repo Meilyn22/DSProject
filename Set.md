@@ -134,7 +134,7 @@ To add items to a set, we utilize the built in `.add()` method. We pass the elem
 
 ``` python
 e = {1, 2, 3, 4}
-a.add(5)
+.add(5)
 print(e)
 {1, 2, 3, 4, 5}
 ```
@@ -229,6 +229,39 @@ a.discard(5)
 print(a)
 {1, 2, 3, 4}
 ```
-The third method (.pop()) will remove and return an arbitrary element from the set and it will raise a KeyError if the set is empty.
+The third method `(.pop())` will remove and return an arbitrary element from the set and it will raise a KeyError if the set is empty.
+
+``` python
+a = {1, 2, 3, 4}
+a.pop()
+1
+a.pop()
+2
+a.pop()
+3
+print(a)
+{4}
+a.pop()
+4
+print(a)
+set()
+>>> a.pop()
+Traceback (most recent call last):
+  File "<pyshell#119>", line 1, in <module>
+    a.pop()
+KeyError: 'pop from an empty set'
+```
 
 ---------------------------------------------------------
+
+### Clear the Set
+To delete all the elements from a set, the .clear method is used.
+
+``` python
+a = {1, 2, 3, 4}
+a.clear()
+a
+set()
+len(a)
+0
+```
