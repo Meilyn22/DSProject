@@ -268,8 +268,10 @@ len(a)
 ## Set Operations
 We can utilize some mathematical set theory operations in python. `union(|)`, `intersection (&)`, `difference (-)`, and `symmetric difference (^)` are all available in the python programming language.
 
-The image below shows a couple standard math operations on two sets A and B. The red part of each Venn diagram is the resulting set of a given set operation.
+The image below shows a couple standard math operations on two sets A and B. The red part of each Venn diagram is the resulting set of a given set operation
+
 ![set math operations](pictures/set3.png)
+(*source*: https://towardsdatascience.com)
 
 ### Union
 
