@@ -170,3 +170,4 @@ print(a)
 {1, 2, 3, 4}
 ```
 The third method (.pop()) will remove and return an arbitrary element from the set and it will raise a KeyError if the set is empty.
+---------------------------------------------------------
