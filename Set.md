@@ -116,3 +116,57 @@ print('papaya' in b)
 True
 ```
 ## Methods of set
+
+### Add to a Set
+To add items to a set, we utilize the built in `.add()` method. We pass the element we want to add as an argument.
+
+``` python
+e = {1, 2, 3, 4}
+a.add(5)
+print(e)
+{1, 2, 3, 4, 5}
+```
+
+### Delete from a Set
+
+We can make use of 3 ways to delete element from a set.
+1. `.remove()`
+2. `.discard()`
+3. `.pop()`
+
+-----------------------------------------------------
+:memo: According to freecodecamp.org:
+The first two methods (.remove() and .discard()) work exactly the same when the element is in the set. The new set is returned:
+
+``` python
+a = {1, 2, 3, 4}
+a.remove(3)
+print(a)
+{1, 2, 4}
+
+a = {1, 2, 3, 4}
+a.discard(3)
+print(a)
+{1, 2, 4}
+```
+
+The key difference between these two methods is that if we use the `.remove()` method, we run the risk of trying to remove an element that doesn't exist in the set and this will raise a `KeyError`:
+
+``` python
+a = {1, 2, 3, 4}
+a.remove(5)
+Traceback (most recent call last):
+  File "<pyshell#102>", line 1, in <module>
+    a.remove(5)
+KeyError: 5
+```
+
+We will never have that problem with `.discard()` since it doesn't raise an exception if the element is not found. This method will simply leave the set intact, as you can see in this example:
+
+``` python
+a = {1, 2, 3, 4}
+a.discard(5)
+print(a)
+{1, 2, 3, 4}
+```
+The third method (.pop()) will remove and return an arbitrary element from the set and it will raise a KeyError if the set is empty.
