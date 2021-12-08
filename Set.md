@@ -276,4 +276,72 @@ The image below shows a couple standard math operations on two sets A and B. The
 
 ### Union
 
-Union creates a new set with all elements of two sets.
+Union creates a new set with the elements of all sets.In python we can use `|` to specify `union`.
+
+This is an example:
+``` python
+a = {3, 1, 7, 4}
+b = {2, 8, 3, 1}
+c = a | b
+print(c)
+{1, 2, 3, 4, 7, 8} # Might be in different order.
+```
+
+We can also apply this on more than two sets.
+``` python
+a = {3, 1, 7, 4}
+b = {2, 8, 3, 1}
+c = {1, 0, 4, 6}
+d = {8, 2, 6, 3}
+
+# Union of these four sets
+print (a | b | c | d)
+{0, 1, 2, 3, 4, 6, 7, 8}
+```
+
+### Intersection
+
+The intersection of two sets creates another set that contains all the values that are in both A and B.
+We can use the `intersection()` method or the `&` operator.
+
+This is an example:
+``` python
+a = {3, 6, 1}
+b = {2, 8, 3, 1}
+print(a & b)
+{1, 3}
+```
+It works on more than two sets as well:
+``` python
+a = {3, 1, 7, 4, 5}
+b = {2, 8, 3, 1, 5}
+c = {1, 0, 4, 6, 5}
+d = {8, 2, 6, 3, 5}
+
+# Only 5 is in a, b, c, and d.
+print(a & b & c & d)
+{5}
+```
+### Difference
+
+Set difference returns a new set containing all elements in the argument set that are not in the other sets. In other words, this will create another set that contains all the elements of set A that are not in set B. We can use the `-` sign to represent the set difference.
+
+This is an example:
+
+a = {3, 6, 1}
+b = {2, 8, 3, 1}
+print (a - b)
+{6}
+
+It works on more than two sets as well:
+
+``` python
+a = {3, 1, 7, 4, 5}
+b = {2, 8, 3, 1, 5}
+c = {1, 0, 4, 6, 5}
+
+# Only 7 is in A but not in B and not in C
+print (a - b - c)
+{7}
+
+```
