@@ -271,6 +271,7 @@ We can utilize some mathematical set theory operations in python. `union(|)`, `i
 The image below shows a couple standard math operations on two sets A and B. The red part of each Venn diagram is the resulting set of a given set operation
 
 ![set math operations](pictures/set3.png)
+
 (*source*: https://towardsdatascience.com)
 
 ### Union
