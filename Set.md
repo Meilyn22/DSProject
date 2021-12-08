@@ -255,7 +255,7 @@ KeyError: 'pop from an empty set'
 ---------------------------------------------------------
 
 ### Clear the Set
-To delete all the elements from a set, the .clear method is used.
+To delete all the elements in a set, the `.clear()` method is used.
 
 ``` python
 a = {1, 2, 3, 4}
@@ -265,3 +265,9 @@ set()
 len(a)
 0
 ```
+## Set Operations
+We can utilize some mathematical set theory operations in python. `union(|)`, `intersection (&)`, `difference (-)`, and `symmetric difference (^)` are all available in the python programming language.
+
+### Union
+
+Union creates a new set with elements of two sets.
