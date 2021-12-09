@@ -20,18 +20,19 @@
 * Methods of set
 * Set operations
 * Conflict resolution
-* Solving common problems with python sets.
+* Solving problems
 * Performance of Sets
 * Practice Sets
 * Exercises
 * Solution
 
 ### 3. Trees
-* Introduction to Tress.
+* Introduction to Trees.
 * Uses of Trees.
 * Types of Trees
-* Implementation of Trees in Python.
-* Performance of Queues
+* Implementation of Trees in Python
+* Recursion
+* Performance of Trees
 * Exercises.
 * Solution
 

@@ -378,8 +378,40 @@ print(a ^ b)
 {2, 6, 8}
 ```
 
-# Performance of a set
+## Performance of a set
 
 ![set perfromace table](pictures/set4.png)
 
 (*source*: https://finxter.com)
+
+## Solving problems with sets
+
+Question:
+
+You have a double dimensional list of N length. Without using the built in intersection function, combine the list into one without duplicate. Order doesn't matter.
+
+Input : items = [[1, 3, 2, 4, 3, 6],
+              [5, 1, 3, 4, 1],
+              [9, 5, 7, 1, 4],
+              [2, 4, 1, 3, 5]]
+Output : [1, 2, 3, 4, 5, 6, 7, 9]
+
+solution:
+``` python
+
+def join_All(items):
+    #We can grab the first item in the list and turn it into a set.
+
+    join = set(items[0])
+    
+    # Go through the list and grab all the items starting from the second.
+    # Put all of them in one list and remove the duplicate.
+    # change the set to a list and return it.  
+    for values in items[1:]:
+        join.update(values)
+    return list(join))
+
+print(join_All(items))
+[1, 2, 3, 4, 5, 6, 7, 9]
+```
+
