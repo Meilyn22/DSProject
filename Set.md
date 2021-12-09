@@ -429,6 +429,6 @@ b = {"Rugby", "American football(Hand egg), "Baseball", "Golf", "Soccer"}
 ``` python
 for items in item
 
-\```
+\ ```
 </p>
 </details>
