@@ -419,9 +419,13 @@ print(join_All(items))
 Write a program in python that returns the intersection of two sets without using any python inbuilt function.
 Write another function using python's builtin intersection function.
 
+`INPUT`:
 a = `{"Soccer", "Basktball", "Golf", "Cricket", "Baseball"}`
 
 b = `{"Rugby", "American football(Hand egg), "Baseball", "Golf", "Soccer"}`
+
+`OUTPUT`: {'Golf', 'Soccer', 'Baseball'}
+
 
 
 <details>
@@ -451,7 +455,7 @@ print(intersectionA(a, b))
 #EXAMPLE2
 def intersectionB(a, b):
     return a & b
-    
+
 print(intersectionB(a, b))
 {'Golf', 'Soccer', 'Baseball'}
 
