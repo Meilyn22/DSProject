@@ -347,11 +347,12 @@ print(a & b & c & d)
 Set difference returns a new set containing all elements in the argument set that are not in the other sets. In other words, this will create another set that contains all the elements of set A that are not in set B. We can use the `-` sign to represent the set difference.
 
 This is an example:
-
+``` python
 a = {3, 6, 1}
 b = {2, 8, 3, 1}
 print (a - b)
 {6}
+```
 
 It works on more than two sets as well:
 
@@ -364,4 +365,15 @@ c = {1, 0, 4, 6, 5}
 print (a - b - c)
 {7}
 
+```
+### Symmetric Difference
+
+The symmetric difference between set 1 and set 2 creates another set with all elements that are either in set 1 or set 2, but aren't in both. Think about the intersection, we are simply getting rid of it. We can use `^` to represent `Symmetric Difference`.
+
+:memo: we are removing the intersection and returning the remaining items.   
+```python
+a = {3, 6, 1}
+b = {2, 8, 3, 1}
+print(a ^ b)
+{2, 6, 8}
 ```
