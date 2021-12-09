@@ -428,7 +428,32 @@ b = `{"Rugby", "American football(Hand egg), "Baseball", "Golf", "Soccer"}`
 <summary> Solution </summary>
 
 ``` python
-for items in item
+
+a = {"Soccer", "Basktball", "Golf", "Cricket", "Baseball"}
+
+b = {"Rugby", "American football(Hand egg)", "Baseball", "Golf", "Soccer"}
+
+#EXAMPLE1
+def intersectionA(a, b):
+    #New set.
+    #loop into "a" and check if values appear in b.
+    #Put the values in new set
+    # retun values
+    values = set()
+    for items in a:
+        if items in b:
+            values.add(items)
+    return values
+
+print(intersectionA(a, b)) 
+{'Golf', 'Soccer', 'Baseball'}
+
+#EXAMPLE2
+def intersectionB(a, b):
+    return a & b
+    
+print(intersectionB(a, b))
+{'Golf', 'Soccer', 'Baseball'}
 
 ```
 </p>
