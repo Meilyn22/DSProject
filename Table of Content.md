@@ -20,10 +20,9 @@
 * Methods of set
 * Set operations
 * Conflict resolution
-* Solving problems
 * Performance of Sets
-* Practice Sets
-* Exercises
+* Solving problems
+* Exercise
 * Solution
 
 ### 3. Trees
