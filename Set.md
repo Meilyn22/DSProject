@@ -403,9 +403,7 @@ solution:
 
 def join_All(items):
     #We can grab the first item in the list and turn it into a set.
-
     join = set(items[0])
-    
     # Go through the list and grab all the items starting from the second.
     # Put all of them in one list and remove the duplicate.
     # change the set to a list and return it.  
@@ -416,4 +414,19 @@ def join_All(items):
 print(join_All(items))
 [1, 2, 3, 4, 5, 6, 7, 9]
 ```
+## Exercise
 
+Write a program in python that returns the intersection of two sets without using any python inbuilt function.
+
+Write another function using python's builtin intersection function.
+
+a = {"Soccer", "Basktball", "Golf", "Cricket", "Baseball"}
+b = {"Rugby", "American football(Hand egg), "Baseball", "Golf", "Soccer"}
+
+<details>
+<summary> Solution </summary>
+``` python
+for items in item
+
+```
+</details>
