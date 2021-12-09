@@ -420,9 +420,9 @@ Write a program in python that returns the intersection of two sets without usin
 
 Write another function using python's builtin intersection function.
 
-a = {"Soccer", "Basktball", "Golf", "Cricket", "Baseball"}
+a = `{"Soccer", "Basktball", "Golf", "Cricket", "Baseball"}`
 
-b = {"Rugby", "American football(Hand egg), "Baseball", "Golf", "Soccer"}
+b = `{"Rugby", "American football(Hand egg), "Baseball", "Golf", "Soccer"}`
 ```
 
 <details>
