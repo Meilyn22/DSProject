@@ -371,9 +371,15 @@ print (a - b - c)
 The symmetric difference between set 1 and set 2 creates another set with all elements that are either in set 1 or set 2, but aren't in both. Think about the intersection, we are simply getting rid of it. We can use `^` to represent `Symmetric Difference`.
 
 :memo: we are removing the intersection and returning the remaining items.   
-```python
+``` python
 a = {3, 6, 1}
 b = {2, 8, 3, 1}
 print(a ^ b)
 {2, 6, 8}
 ```
+
+# Performance of a set
+
+![set perfromace table](pictures/set4.png)
+
+(*source*: https://finxter.com)
