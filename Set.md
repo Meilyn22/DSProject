@@ -415,20 +415,22 @@ print(join_All(items))
 [1, 2, 3, 4, 5, 6, 7, 9]
 ```
 ## Exercise
-
+```
 Write a program in python that returns the intersection of two sets without using any python inbuilt function.
 
 Write another function using python's builtin intersection function.
 
 a = {"Soccer", "Basktball", "Golf", "Cricket", "Baseball"}
+
 b = {"Rugby", "American football(Hand egg), "Baseball", "Golf", "Soccer"}
+```
 
 <details>
 <summary> Solution </summary>
-<
+
 ``` python
 for items in item
 
-\ ```
+```
 </p>
 </details>
