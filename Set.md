@@ -390,11 +390,13 @@ Question:
 
 You have a double dimensional list of N length. Without using the built in intersection function, combine the list into one without duplicate. Order doesn't matter.
 
+```
 Input : items = [[1, 3, 2, 4, 3, 6],
               [5, 1, 3, 4, 1],
               [9, 5, 7, 1, 4],
               [2, 4, 1, 3, 5]]
 Output : [1, 2, 3, 4, 5, 6, 7, 9]
+```
 
 solution:
 ``` python
