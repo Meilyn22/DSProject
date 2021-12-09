@@ -425,8 +425,10 @@ b = {"Rugby", "American football(Hand egg), "Baseball", "Golf", "Soccer"}
 
 <details>
 <summary> Solution </summary>
+<
 ``` python
 for items in item
 
-```
+\```
+</p>
 </details>
