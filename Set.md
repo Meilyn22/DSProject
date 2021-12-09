@@ -265,6 +265,26 @@ set()
 len(a)
 0
 ```
+
+## Copy
+This method is used to make a copy of the Set.
+``` python
+sample = {1,2,3,4,5}
+new_sample = sample.copy()
+print(new_sample)
+{1,2,3,4,5}
+```
+## Update Method
+We can use this method to add multiple values to a set, we can also pass new sets or list or both, and it will be added to the set. This method allows us put a list in a set.
+
+``` python
+sample = {1,2,3,4,5}
+sample.update([6,7,8])
+print(sample)
+
+{1,2,3,4,5,6,7,8}
+``` 
+
 ## Set Operations
 We can utilize some mathematical set theory operations in python. `union(|)`, `intersection (&)`, `difference (-)`, and `symmetric difference (^)` are all available in the python programming language.
 
