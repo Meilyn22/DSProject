@@ -90,3 +90,24 @@ Let's see some picture illustration of how these two operations work in python.
     
     (*source*: geekflare.com)
 </p>
+
+We can write our own functions to add more functionality to the queue.
+
+### Rear()
+Returns the first item from the back or end of the queue.
+
+<p align="center">
+    <img src= "https://geekflare.com/wp-content/uploads/2021/01/8.png" alt= "rear">
+    
+    (*source*: geekflare.com)
+</p>
+
+### Front()
+
+Returns the first item from the front of the queue.
+
+<p align="center">
+    <img src= "https://geekflare.com/wp-content/uploads/2021/01/7.png" alt= "front">
+    
+    (*source*: geekflare.com)
+</p>
