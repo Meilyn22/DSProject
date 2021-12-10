@@ -111,3 +111,13 @@ Returns the first item from the front of the queue.
     
     (*source*: geekflare.com)
 </p>
+
+### is_empty()
+
+Returns the state of the queue. It tells us if the queue is empty or not.
+
+<p align="center">
+    <img src= "https://geekflare.com/wp-content/uploads/2021/01/9.png" alt= "empty">
+    
+    (*source*: geekflare.com)
+</p>
