@@ -51,4 +51,6 @@ Let's see some picture illustration of how these two operations work in python.
 
 <p align="center">
     <img src= "https://geekflare.com/wp-content/uploads/2021/01/1.png" alt= "empty queue">
+
+    (*source*: geekflare.com)
 </p>
