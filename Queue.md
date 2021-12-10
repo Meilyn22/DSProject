@@ -35,44 +35,18 @@ Unlike arrays and linked list, items in a queue cannot be operated from their re
 (*source*: Wikipedia. com)
 
 ![An illustration of a queue with the back on the right.](pictures/queue6.png)
+
 An illustration of a queue with the back on the right.
 
 (*source*: Javapoint.com)
 
-Queue P supports the following two fundamental methods:
-1. `P.enqueue(i)`: Add element `i` to the back of `queue P`.
-2. `P.dequeue()`: Remove and return the first element from `queue P`;
-if the queue `is empty`, an error will occur.
+### enqueue(items)
+The enqueue in python adds a new item to the queue. We can call this side the rare or the back.
 
+### dequeue()
 
-Other methods supported are:
+The dequeue() removes items from the front of the queue. We can call this side the front.
 
-* `P.first()`: Return a reference to the element at the front of `queue P`, without removing it; an error occurs if the queue is empty.
-* `P.is empty()`: Return True if queue P does not contain any elements.
-* `len(P)`: Return the number of elements in `queue P`; in Python,
-we implement this with the special method `len`.
+Let's see some picture illustration of how these two operations work in python. 
 
-```
-NOTE: Remember that it's assumed that a newly created queue is empty.
-```
-The following table shows a series of queue operations and their
-effects on an initially empty queue P of integers.
-
-operation        | Return Value  | first <-- P --> last  |
----------        | ------------  | --------------------  |
-P.enqueue(7)     |       -       |          [7]          |
-P.enqueue(4)     |       -       |         [7, 4]        |
-len(P)           |       2       |         [7, 4]        |
-P.dequeue( )     |       7       |          [4]          |
-P.is empty( )    |     False     |          [4]          |
-P.dequeue( )     |       4       |          [ ]          |
-P.is empty( )    |     True      |          [ ]          |
-P.dequeue( )     |     “error”   |          [ ]          |
-P.enqueue(7)     |       –       |          [7]          |
-P.enqueue(9)     |       –       |         [7, 9]        |
-P.first( )       |       7       |         [7, 9]        |
-P.enqueue(4)     |       –       |         [7, 9, 4]     |
-len(P)           |       3       |         [7, 9, 4]     |
-P.dequeue( )     |       7       |         [9, 4]        |
-
-(*Table source*: Data Structures and Algorithms in Python BY *Michael T. Goodrich, Roberto Tamassia, Michael H. Goldwasser*)
+![An empty queue.](pictures/queue_empty.png)
