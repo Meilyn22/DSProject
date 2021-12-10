@@ -49,4 +49,6 @@ The dequeue() removes items from the front of the queue. We can call this side t
 
 Let's see some picture illustration of how these two operations work in python. 
 
-![An empty queue.](pictures/queue_empty.png)
+<p align="center">
+    <img src= "https://geekflare.com/wp-content/uploads/2021/01/1.png" alt= "empty queue">
+</p>
