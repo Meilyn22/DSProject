@@ -129,7 +129,9 @@ Queue in Python can be implemented in the following ways:
 2. collections.deque
 3. queue.Queue
 
-### List
+In this class we are going to talk about the first two. 
+
+## List
 The lists is a data structure in python. We are going to implement a queue using  a class in python.
 
 ### Step 1:
@@ -266,7 +268,7 @@ if __name__ == '__main__':
 	queue.dequeue()
 	queue.dequeue()
 
-	## checking the is_empty method for the last time
+	#checking the is_empty method for the last time
 	print(queue.is_empty())
 
 ```
@@ -279,3 +281,68 @@ False
 2 5
 True
 ```
+
+## Using Deque from Collections
+
+A deque is referred to as a double-ended queue in which items can be inserted and deleted from either the right or the left side of the queue.
+
+`append(data)` – used to add the data to the queue
+`popleft()` – used to remove the first element from the queue
+
+Let's see the implementation:
+
+``` python
+
+from collections import deque
+
+# creating deque object
+queue = deque()
+
+# Checking whether the queue is empty
+print(len(queue) == 0)
+
+# Adding the elements 
+queue.append(1)
+queue.append(2)
+queue.append(3)
+queue.append(4)
+queue.append(5)
+
+# checking whether queue is empty or not again
+print(len(queue) == 0)
+
+# rinting the queue
+print(queue)
+
+# removing the first elelement from the front
+queue.popleft()
+
+# printing the queue again
+print(queue)
+
+# removing all the elements from the queue
+queue.popleft()
+queue.popleft()
+queue.popleft()
+queue.popleft()
+
+]# checking whether queue is empty or not for the last time.
+print(len(queue) == 0)
+```
+
+our output:
+
+``` python
+True
+False
+1
+2
+3
+Size 2
+4
+5
+True
+```
+
+
+
