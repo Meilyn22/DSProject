@@ -347,10 +347,9 @@ True
 ```
 
 `Exercise`:
-
-```
+`
 You are in a line to buy a ticket, you are the 4th person on the queue. Write a program with a line class that creates the queue, methods that add people on the queue and remove them until it's your turn. Instead of adding the is_empty method, add check how many people are in the queue after adding and removing them from the queue.
-```
+`
 
 
 
