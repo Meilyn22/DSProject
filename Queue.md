@@ -286,7 +286,8 @@ True
 
 A deque is referred to as a double-ended queue in which items can be inserted and deleted from either the right or the left side of the queue.
 
-`append(data)` – used to add the data to the queue
+`append(data)` – used to add the data to the queue.
+
 `popleft()` – used to remove the first element from the queue
 
 Let's see the implementation:
@@ -326,7 +327,7 @@ queue.popleft()
 queue.popleft()
 queue.popleft()
 
-]# checking whether queue is empty or not for the last time.
+# checking whether queue is empty or not for the last time.
 print(len(queue) == 0)
 ```
 
