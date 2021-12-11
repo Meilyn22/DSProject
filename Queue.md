@@ -348,8 +348,51 @@ True
 
 `Exercise`:
 `
-You are in a line to buy a ticket, you are the 4th person on the queue. Write a program with a line class that creates the queue, methods that add people on the queue and remove them until it's your turn. Instead of adding the is_empty method, add check how many people are in the queue after adding and removing them from the queue.
+You are in a line to buy a ticket, you are the 4th person on the queue. Write a program with a line class that creates the queue, methods that add people on the queue and remove them until it's your turn. Instead of adding the is_empty method, add a method to check how many people are in the queue after adding and removing them from the queue.
 `
+
+solution:
+
+``` python
+class Line:
+    # Initializing the class
+    def __init__(self):
+        self.people = []
+        # Add data to the class
+    def enqueue(self, data):
+        self.people.append(data)
+        return data
+        #Remove data from the class
+    def dequeue(self):
+        return self.people.pop(0)
+    
+    def length_of_queue(self):
+        return len(self.people)
+        
+queue = Line()
+
+#Adding the 3 people before me. 
+queue.enqueue("First_customer")
+queue.enqueue("Second_customer")
+queue.enqueue("Third_customer")
+queue.enqueue("Me")
+
+#Checking how many people are in the queue
+print(f"There are {queue.length_of_queue()} people in the queue")
+
+queue.dequeue()
+queue.dequeue()
+queue.dequeue()
+
+print(f" It's just me now. {queue.length_of_queue()} in the queue")
+
+```
+output:
+
+```
+There are 4 people in the queue
+It's just me now. 1 in the queue
+```
 
 
 
