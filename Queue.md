@@ -345,6 +345,9 @@ Size 2
 5
 True
 ```
+## Performance of Queues
+
+![Performance of Queues.](pictures/queue7.png)
 
 `Exercise`:
 `
@@ -393,6 +396,8 @@ output:
 There are 4 people in the queue
 It's just me now. 1 in the queue
 ```
+Exercise 2:
+
 
 
 
