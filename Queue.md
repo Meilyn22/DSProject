@@ -121,3 +121,86 @@ Returns the state of the queue. It tells us if the queue is empty or not.
     
     (*source*: geekflare.com)
 </p>
+
+## Queue Implementation
+Queue in Python can be implemented in the following ways:
+
+1. list
+2. collections.deque
+3. queue.Queue
+
+### List
+The lists is a data structure in python. We are going to implement a queue using  a class in python.
+
+Step 1:
+We need a queue class.
+
+``` python
+class Queue:
+    pass
+```
+
+Step 2:
+We need to have an empty list to store the data. Let us name this `items`.
+
+``` python
+class Queue:
+
+	def __init__(self):
+		self.items = []
+```
+
+Step3:
+Now we can start creating methods for our program. These methods will implement the various behaviors we talked about earlier in this chapter. 
+
+``` python
+class Queue:
+
+	def enqueue(self, data):
+		self.items.append(data)
+		return data
+```
+
+Step 4:
+
+Now we can add the dequeue method which removes the first item from the queue.
+We can do this by using the pop() method in python.
+``` Python
+class Queue:
+
+	def dequeue(self):
+		return self.itemss.pop(0)
+```
+Our queue is pretty much done at this point, but we can add other methods to access the first and last items in the list.
+
+Step 5:
+
+``` python
+class Queue:
+	def rear(self):
+		return self.items[-1]
+```
+
+step 6:
+
+``` python
+class Queue:
+	def front(self):
+		return self.itemss[0]
+```
+
+Step 7:
+We can check whether the queue is empty with the is_empty() method we will create.
+
+``` python
+class Queue:
+	def is_empty(self):
+		return len(self.itemss) == 0
+```
+``` python
+class Queue:
+
+if __name__ == '__main__':
+	queue = Queue()
+
+```
