@@ -193,7 +193,7 @@ class Queue:
 		return self.items[0]
 ```
 
-###Step 7:
+### Step 7:
 
 We can check whether the queue is empty with the is_empty() method we will create.
 
@@ -207,5 +207,75 @@ class Queue:
 
 if __name__ == '__main__':
 	queue = Queue()
+```
+Now let's look at the full code we have written.
 
+``` python 
+class Queue:
+    #Create an instance of the class.
+	def __init__(self):
+		self.items = []
+    #Add data to the queue
+	def enqueue(self, data):
+		self.items.append(data)
+		return data
+    #Delete the first item from the queue
+	def dequeue(self):
+		return self.items.pop(0)
+    #Access item from the end of the queue
+	def rear(self):
+		return self.items[-1]
+    #Access item from the front of the queue
+	def front(self):
+		return self.items[0]
+    #Check if the queue is empty
+	def is_empty(self):
+		return len(self.items) == 0
+
+if __name__ == '__main__':
+	queue = Queue()
+
+    #Check if the queue is empty
+
+    print(queue.is_empty())
+
+    #Adding elements to the queue
+    queue.enqueue(1)
+	queue.enqueue(2)
+	queue.enqueue(3)
+	queue.enqueue(4)
+	queue.enqueue(5)
+
+    #Check if the queue is empty
+    print(queue.is_empty())
+
+    #printing the front and end items using front and rear methods.
+	print(queue.front(), end=' ')
+	print(queue.rear())
+
+    #Remove the element from the queue
+    queue.dequeue()
+
+    #printing the front and end items using front and rear methods.
+	print(queue.front(), end=' ')
+	print(queue.rear())
+
+    ## removing all the elements
+	queue.dequeue()
+	queue.dequeue()
+	queue.dequeue()
+	queue.dequeue()
+
+	## checking the is_empty method for the last time
+	print(queue.is_empty())
+
+```
+Running our code will give us these reuslt. 
+
+``` python
+True
+False
+1 5
+2 5
+True
 ```
