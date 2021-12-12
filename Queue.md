@@ -273,7 +273,7 @@ if __name__ == '__main__':
 	print(queue.is_empty())
 
 ```
-Running our code will give us these reuslt. 
+Running our code will give us these results. 
 
 ``` python
 True
@@ -316,7 +316,7 @@ print(len(queue) == 0)
 # rinting the queue
 print(queue)
 
-# removing the first elelement from the front
+# removing the first element from the front
 queue.popleft()
 
 # printing the queue again
@@ -398,6 +398,62 @@ It's just me now. 1 in the queue
 ```
 Exercise 2:
 
+You want to buy a pot of beans and bread from an African store, when you got there, you found 10 people waiting to purchase things. The store has no way to tell who came first and who should be served first. You've decided to help the store implement a system that will make things easier for them to queue people up.
+
+Using the deque from python collections, create a program to help the store with 10 people who were there before you.
+
+<details>
+<summary> Solution </summary>
+
+```python
+from collections import deque
+queue = deque()
+
+#We check if the queue is empty
+if len(queue) == 0:
+    print("The queue is empty right now")
+
+#We add the customers to the queue FIFO (first in first out).
+
+queue.append("customer_1")
+queue.append("customer_2")
+queue.append("customer_3")
+queue.append("customer_4")
+queue.append("customer_5")
+queue.append("customer_6")
+queue.append("customer_7")
+queue.append("customer_8")
+queue.append("customer_9")
+queue.append("customer_10")
+
+#Checking how many customers are in the queue.
+print(f"There are {len(queue)} customers in the queue right now")
+
+#we are ready to serve the customers. After serving we want to remove them from the queue
+queue.popleft()
+queue.popleft()
+queue.popleft()
+queue.popleft()
+queue.popleft()
+queue.popleft()
+queue.popleft()
+queue.popleft()
+queue.popleft()
+queue.popleft()
+
+#We check if the queue is empty after serving customers. 
+if len(queue) == 0:
+    print("The queue is empty right now")
+```
+output
+
+``` python
+The queue is empty right now
+There are 10 customers in the queue right now
+The queue is empty right now
+```
+</p>
+</details>
 
 
 
