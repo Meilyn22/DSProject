@@ -118,7 +118,7 @@ True
 ## Methods of set
 
 ### Set Size
-We can obtain the size of a set (the number of elements) using the built in len() function. in poython.
+We can obtain the size of a set (the number of elements) using the built in len() function in python.
 
 ``` python
 a = {'apple', 'orange', 'banana', 'melon', 'mango'}
