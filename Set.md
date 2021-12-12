@@ -41,7 +41,7 @@ Examples of using a `set()` constructor.
 # Converting a string to a set
 print(set('abcd'))
 # prints
-set(['a', 'c', 'b', 'd'])
+{'a', 'c', 'b', 'd'} #Could be in different order
 
 # Converting a list to a set
 print(set([1, 2, 3, 4]))
