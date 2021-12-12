@@ -396,6 +396,7 @@ You want to buy a pot of beans and bread from an African store, when you got the
 
 Using the deque from python collections, create a program to help the store with 10 people who were there before you.
 
+Click for solution
 <details>
 <summary> Solution </summary>
 
