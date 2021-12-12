@@ -68,12 +68,6 @@ Let's see some picture illustration of how these two operations work in python.
 </p>
 
 <p align="center">
-    <img src= "https://geekflare.com/wp-content/uploads/2021/01/3.png" alt= "enqueue">
-    
-    (*source*: geekflare.com)
-</p>
-
-<p align="center">
     <img src= "https://geekflare.com/wp-content/uploads/2021/01/4.png" alt= "enqueue">
     
     (*source*: geekflare.com)
