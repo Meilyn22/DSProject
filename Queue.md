@@ -447,7 +447,7 @@ if len(queue) == 0:
 ```
 output
 
-``` python
+```
 The queue is empty right now
 There are 10 customers in the queue right now
 The queue is empty right now
