@@ -134,7 +134,7 @@ To add items to a set, we utilize the built in `.add()` method. We pass the elem
 
 ``` python
 e = {1, 2, 3, 4}
-.add(5)
+e.add(5)
 print(e)
 {1, 2, 3, 4, 5}
 ```
