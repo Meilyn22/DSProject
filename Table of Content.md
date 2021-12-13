@@ -7,10 +7,9 @@
 * Introduction to Queues
 * Uses of Queues
 * Operations and Structure Of Queues
-* Queue using collections.Deque In python
 * Queue using a List
+* Queue using collections.Deque In python
 * Performance of Queues
-* Practice Queues
 * Exercises
 * Solution
 
@@ -21,16 +20,14 @@
 * Set operations
 * Conflict resolution
 * Performance of Sets
-* Solving problems
 * Exercise
 * Solution
 
 ### 3. Trees
 * Introduction to Trees.
-* Uses of Trees.
-* Types of Trees
-* Implementation of Trees in Python
+* Binary Tree
 * Recursion
+* Implementation of Binary Trees in Python
 * Performance of Trees
 * Exercises.
 * Solution
