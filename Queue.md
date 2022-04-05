@@ -451,6 +451,6 @@ The queue is empty right now
 </details>
 
 
-In conclusion, a queue is an awesome data structure that helps us solve problems. It is also fast, most of the operations run on constant time except for the dequeue that runs on on linear time.
+In conclusion, a queue is an awesome data structure that helps us solve problems. A queue also fast, most of the operations run on constant time except for the dequeue that runs on on linear time.
 
 

@@ -11,7 +11,7 @@ The tree comprises of terminology that might be useful to your understanding of 
     A node is an element in the tree.
 
 * ROOT:
-    A binary tree contains one root. The root has no parent and is the top most elelement.
+    A binary tree contains one root. The root has no parent and is the top most elelement..
 
 * LEAF:
     We can describe the leaves of a tree as the nodes without children.

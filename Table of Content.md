@@ -11,7 +11,7 @@
 * Queue using collections.Deque In python
 * Performance of Queues
 * Exercises
-* Solution
+* Solution.
 
 ### 2. Sets
 * Introduction to sets in Python.
